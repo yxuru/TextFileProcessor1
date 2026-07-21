@@ -18,10 +18,24 @@
     <ClCompile Include="TextFileProcessor1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="clean.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="findAll.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
       <Filter>Resource Files</Filter>
     </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="clean.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="findAll.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
