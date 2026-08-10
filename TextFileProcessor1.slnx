@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="TextFileProcessor1/TextFileProcessor1.vcxproj" />
+  <Project Path="TextFileProcessor1/TextFileProcessor1.vcxproj" Id="ff989a68-eb07-40f4-a9be-eb289af8594e" />
 </Solution>

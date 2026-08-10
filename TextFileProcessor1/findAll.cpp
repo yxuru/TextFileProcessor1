@@ -24,5 +24,3 @@ void findAll(const std::unordered_map<std::string, std::string>& data)
 	
 
 }
-
-// Currently the desired key is not functioning and it is simply giving every part of the map when I only want it to print the part of map assigned to that key

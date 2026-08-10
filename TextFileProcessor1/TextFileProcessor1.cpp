@@ -5,12 +5,13 @@
 #include <unordered_map>
 #include "clean.h"
 #include "findAll.h"
-
+#include <chrono>
  
 
 int main() 
     {
-    // opens text file and decalres stream & line
+    auto start = std::chrono::high_resolution_clock::now();
+    // opens text file and declares stream & line
     std::ifstream infile;
     infile.open("input.txt");
     std::string line;
@@ -37,9 +38,13 @@ int main()
 
             data[left_eq] = right_eq;                                       // Somewhere in here have a duplicate key detector!       
 
+
         }
         std::cout << "Successfully processed the text file.\n";
+        auto end = std::chrono::high_resolution_clock::now();
+        auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(end - start).count();
 
+            std::cout << "File loaded in: " << duration << " ms\n";
         // Loaded ____ entries in ___ ms!
 
     }
